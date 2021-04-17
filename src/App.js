@@ -19,7 +19,6 @@ function App() {
     switch (ops) {
       case '+':
         setRes(res => v11 + v22);
-        console.log(res);
         break;
       case '-':
         setRes(res => v11 - v22);
@@ -60,6 +59,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>CALCY</h1>
       <form onSubmit={e => e.preventDefault()}>
         <table>
           <thead>
@@ -139,6 +139,7 @@ function App() {
           </tbody>
         </table>
       </form>
+      <div id="footer">Created by Deepbaran Kar</div>
     </div>
   );
 }

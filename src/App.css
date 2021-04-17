@@ -1,12 +1,18 @@
-body {
-  margin: auto;
-}
-
 .App {
   margin: auto;
   width: 50%;
   margin-top: 5%;
   text-align: center;
+}
+
+h1 {
+  margin: auto;
+  letter-spacing: 2px;
+  color: orangered;
+}
+
+table {
+  margin: auto;
 }
 
 table,
@@ -19,4 +25,29 @@ td {
 
 td {
   cursor: pointer;
+}
+
+input {
+  text-align: center;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: orangered;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: orangered;
+}
+
+input::-ms-input-placeholder {
+  color: orangered;
+}
+
+#footer {
+  margin: auto;
+  margin-top: 5%;
+  font-size: 15px;
+  color: gray;
 }
